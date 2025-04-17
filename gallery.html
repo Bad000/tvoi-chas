@@ -2,37 +2,21 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Твой час — Аренда кабинетов</title>
+  <title>Галерея | Твой час</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Хедер -->
-  <header>
-    <div class="logo">Твой час</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="tarify.html">Тарифы</a></li>
-        <li><a href="gallery.html">Галерея</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-      </ul>
-    </nav>
-    <a class="btn" href="contact.html#bron">Забронировать</a>
-  </header>
-  <!-- ====== gallery.html ====== -->
-<!-- Галерея -->
-<section class="gallery">
-  <h1>Галерея помещений</h1>
-  <div class="gallery-grid">
-    <img src="images/kab1.jpg" alt="Кабинет 1">
-    <img src="images/kab2.jpg" alt="Кабинет 2">
-    <img src="images/kab3.jpg" alt="Кабинет 3">
-    <img src="images/kab4.jpg" alt="Кабинет 4">
-  </div>
-</section>
-  <footer>…</footer>
+  <div data-include="header.html"></div>
+  <section class="gallery">
+    <h1>Галерея помещений</h1>
+    <div class="gallery-grid">
+      <img src="images/kab1.jpg" alt="Кабинет 1">
+      <img src="images/kab2.jpg" alt="Кабинет 2">
+      <img src="images/kab3.jpg" alt="Кабинет 3">
+      <img src="images/kab4.jpg" alt="Кабинет 4">
+    </div>
+  </section>
+  <div data-include="footer.html"></div>
+  <script src="includes.js"></script>
 </body>
 </html>
-
