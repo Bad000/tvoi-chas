@@ -2,38 +2,24 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Твой час — Аренда кабинетов</title>
+  <title>Контакты | Твой час</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Хедер -->
-  <header>
-    <div class="logo">Твой час</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="tarify.html">Тарифы</a></li>
-        <li><a href="gallery.html">Галерея</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-      </ul>
-    </nav>
-    <a class="btn" href="contact.html#bron">Забронировать</a>
-  </header>
-<!-- ====== contact.html ====== -->
-<!-- Контакты -->
-<section class="contact">
-  <h1>Контакты и бронирование</h1>
-  <p>г. Москва, ул. Примерная, д. 1</p>
-  <p>+7 900 000-00-00</p>
-  <p>@tvoychas</p>
-  <form id="bron">
-    <input type="text" placeholder="Имя" required>
-    <input type="tel" placeholder="Телефон" required>
-    <textarea placeholder="Комментарий или дата / время"></textarea>
-    <button type="submit">Забронировать</button>
-  </form>
-</section>
+  <div data-include="header.html"></div>
+  <section class="contact">
+    <h1>Контакты и бронирование</h1>
+    <p>г. Москва, ул. Примерная, д. 1</p>
+    <p>+7 900 000-00-00</p>
+    <p>@tvoychas</p>
+    <form id="bron">
+      <input type="text" placeholder="Имя" required>
+      <input type="tel" placeholder="Телефон" required>
+      <textarea placeholder="Комментарий или дата / время"></textarea>
+      <button type="submit">Забронировать</button>
+    </form>
+  </section>
+  <div data-include="footer.html"></div>
+  <script src="includes.js"></script>
 </body>
 </html>
