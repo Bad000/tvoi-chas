@@ -7,29 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Хедер -->
-  <header>
-    <div class="logo">Твой час</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="tarify.html">Тарифы</a></li>
-        <li><a href="gallery.html">Галерея</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-      </ul>
-    </nav>
-    <a class="btn" href="contact.html#bron">Забронировать</a>
-  </header>
+  <div data-include="header.html"></div>
 
-  <!-- Первый экран -->
   <section class="hero">
     <h1>Ваше пространство. Ваше время.</h1>
     <p>Уютные кабинеты в центре Москвы для работы и встреч</p>
     <a class="btn-primary" href="tarify.html">Посмотреть тарифы</a>
   </section>
 
-  <!-- Форматы аренды -->
   <section class="formats">
     <h2>Выберите свой формат</h2>
     <div class="format-grid">
@@ -46,7 +31,6 @@
     </div>
   </section>
 
-  <!-- Преимущества -->
   <section class="benefits">
     <h2>Почему выбирают нас</h2>
     <ul>
@@ -57,7 +41,6 @@
     </ul>
   </section>
 
-  <!-- Галерея превью -->
   <section class="gallery-preview">
     <h2>Наши кабинеты</h2>
     <div class="gallery-row">
@@ -68,23 +51,13 @@
     <a class="btn" href="gallery.html">Смотреть все фото</a>
   </section>
 
-  <!-- Отзывы -->
   <section class="reviews">
     <h2>Отзывы клиентов</h2>
     <blockquote>«Очень уютное пространство, идеально для консультаций!»</blockquote>
     <blockquote>«Отличное местоположение и вежливые администраторы.»</blockquote>
   </section>
 
-  <!-- Контакты и форма -->
-  <footer>
-    <h2>Связаться с нами</h2>
-    <form id="bron">
-      <input type="text" placeholder="Ваше имя" required>
-      <input type="tel" placeholder="Телефон" required>
-      <textarea placeholder="Комментарий или вопрос..."></textarea>
-      <button type="submit">Отправить</button>
-    </form>
-    <p>г. Москва, ул. Примерная, д. 1 · +7 900 000-00-00 · @tvoychas</p>
-  </footer>
+  <div data-include="footer.html"></div>
+  <script src="includes.js"></script>
 </body>
 </html>
