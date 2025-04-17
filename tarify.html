@@ -2,41 +2,26 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Твой час — Аренда кабинетов</title>
+  <title>Тарифы | Твой час</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Хедер -->
-  <header>
-    <div class="logo">Твой час</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="tarify.html">Тарифы</a></li>
-        <li><a href="gallery.html">Галерея</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-      </ul>
-    </nav>
-    <a class="btn" href="contact.html#bron">Забронировать</a>
-  </header>
-  <!-- ====== tarify.html ====== -->
-<!-- Тарифы -->
-<section class="tarify">
-  <h1>Тарифы на аренду</h1>
-  <table>
-    <thead>
-      <tr><th>Формат</th><th>Часы</th><th>Цена</th></tr>
-    </thead>
-    <tbody>
-      <tr><td>Индивидуальный кабинет</td><td>1 час</td><td>350 ₽</td></tr>
-      <tr><td>Групповая комната</td><td>1 час</td><td>600 ₽</td></tr>
-      <tr><td>Абонемент 10 ч (индив.)</td><td>10 ч</td><td>3 000 ₽</td></tr>
-      <tr><td>Абонемент 10 ч (группа)</td><td>10 ч</td><td>5 000 ₽</td></tr>
-    </tbody>
-  </table>
-</section>
-<footer>…</footer>
+  <div data-include="header.html"></div>
+  <section class="tarify">
+    <h1>Тарифы на аренду</h1>
+    <table>
+      <thead>
+        <tr><th>Формат</th><th>Часы</th><th>Цена</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Индивидуальный кабинет</td><td>1 час</td><td>350 ₽</td></tr>
+        <tr><td>Групповая комната</td><td>1 час</td><td>600 ₽</td></tr>
+        <tr><td>Абонемент 10 ч (индив.)</td><td>10 ч</td><td>3 000 ₽</td></tr>
+        <tr><td>Абонемент 10 ч (группа)</td><td>10 ч</td><td>5 000 ₽</td></tr>
+      </tbody>
+    </table>
+  </section>
+  <div data-include="footer.html"></div>
+  <script src="includes.js"></script>
 </body>
 </html>
