@@ -2,52 +2,18 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Твой час — Аренда кабинетов</title>
+  <title>FAQ | Твой час</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Хедер -->
-  <header>
-    <div class="logo">Твой час</div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Главная</a></li>
-        <li><a href="tarify.html">Тарифы</a></li>
-        <li><a href="gallery.html">Галерея</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-      </ul>
-    </nav>
-    <a class="btn" href="contact.html#bron">Забронировать</a>
-  </header>
-  <!-- ====== faq.html ====== -->
-<!-- FAQ -->
-<section class="faq">
-  <h1>Часто задаваемые вопросы</h1>
-  <details>
-    <summary>Как забронировать кабинет?</summary>
-    <p>Через форму на сайте или в мессенджерах.</p>
-  </details>
-  <details>
-    <summary>Можно ли отменить бронь?</summary>
-    <p>Да, за 24 часа без штрафа.</p>
-  </details>
-  <details>
-    <summary>Есть ли парковка?</summary>
-    <p>Поблизости есть платные парковки.</p>
-  </details>
-</section>
-    <!-- Контакты и форма -->
-  <footer>
-    <h2>Связаться с нами</h2>
-    <form id="bron">
-      <input type="text" placeholder="Ваше имя" required>
-      <input type="tel" placeholder="Телефон" required>
-      <textarea placeholder="Комментарий или вопрос..."></textarea>
-      <button type="submit">Отправить</button>
-    </form>
-    <p>г. Москва, ул. Примерная, д. 1 · +7 900 000-00-00 · @tvoychas</p>
-  </footer>
+  <div data-include="header.html"></div>
+  <section class="faq">
+    <h1>Часто задаваемые вопросы</h1>
+    <details><summary>Как забронировать кабинет?</summary><p>Через форму на сайте или в мессенджерах.</p></details>
+    <details><summary>Можно ли отменить бронь?</summary><p>Да, за 24 часа без штрафа.</p></details>
+    <details><summary>Есть ли парковка?</summary><p>Поблизости есть платные парковки.</p></details>
+  </section>
+  <div data-include="footer.html"></div>
+  <script src="includes.js"></script>
 </body>
 </html>
